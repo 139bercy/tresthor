@@ -1,0 +1,32 @@
+Package: tresthor
+Title: Macroeconomic model analysis
+Version: 1.0.0
+Authors@R: 
+    c(person(given = "Anissa",
+           family = "Saumtally",
+           role = c("aut", "cre"),
+           email = "anissa.saumtally@dgtresor.gouv.fr"),
+    person(given = "Charlotte",
+           family = "Nudelmann",
+           role = "ctb"),
+    person(given = "Niamh",
+           family = "Dunne",
+           role = "ctb"))
+Description: The macroeconomic model builder and solver created by DG Trésor.
+License: CeCILL-C
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: assertthat, splitstackshape, scales, stringr, methods,
+        RcppArmadillo, Rcpp, Matrix, gsubfn, ggplot2, purrr, tidyr,
+        cointReg
+Depends: R (>= 3.5.0), dplyr, Deriv
+Suggests: x12, lubridate, knitr, rmarkdown
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2021-06-29 09:13:37 UTC; asaumtally
+Author: Anissa Saumtally [aut, cre],
+  Charlotte Nudelmann [ctb],
+  Niamh Dunne [ctb]
+Maintainer: Anissa Saumtally <anissa.saumtally@dgtresor.gouv.fr>
